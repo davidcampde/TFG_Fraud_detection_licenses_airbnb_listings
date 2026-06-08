@@ -144,6 +144,14 @@ ENV/
 env.bak/
 venv.bak/
 
+
+#Datasets
+datasets/
+data/
+models/
+reports/
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
