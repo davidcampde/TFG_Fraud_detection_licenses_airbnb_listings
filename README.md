@@ -24,16 +24,17 @@ Only the raw input datasets used in the Bronze layer are provided. The Silver an
 The included data should be interpreted as a static academic snapshot. Listings, licences and regulations may change over time, so results should not be assumed to represent the current state of the market.
 
 ## Repository Structure
+
+```text
+Fraudulent_property_listing_detection_tool/
 ├── data/
 │   ├── bronze/
 │   │   ├── airbnb_raw.csv
 │   │   └── licenses_raw.csv
-│   │
 │   ├── silver/
 │   │   ├── airbnb_clean.parquet
 │   │   ├── licenses_clean.parquet
 │   │   └── airbnb_license_reference.parquet
-│   │
 │   └── gold/
 │       ├── airbnb_modeling_dataset.parquet
 │       ├── X_train.parquet
@@ -43,20 +44,16 @@ The included data should be interpreted as a static academic snapshot. Listings,
 │       ├── y_val.parquet
 │       ├── y_test.parquet
 │       └── feature_config.json
-│
 ├── models/
 │   ├── final_random_forest_pipeline.pkl
 │   ├── final_model_metadata.json
 │   └── trained_models.pkl
-│
 ├── src/
 │   ├── 1_Data_preprocessing.ipynb
 │   ├── 2_Exploratory_data_analysis.ipynb
 │   ├── 3_Modelling.ipynb
 │   └── 4_Results_and_explainability.ipynb
-│
 ├── reports/
 │   ├── figures/
 │   └── tables/
-│
 └── README.md
