@@ -147,10 +147,11 @@ venv.bak/
 
 #Datasets
 datasets/
-data/silver/
-data/gold/
-models/
-reports/
+tool/data/bronze/dataset_idealista.csv
+tool/data/silver/
+tool/data/gold/
+tool/models/
+tool/reports/
 
 
 # Spyder project settings
