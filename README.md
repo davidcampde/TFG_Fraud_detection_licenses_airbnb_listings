@@ -26,7 +26,7 @@ The included data should be interpreted as a static academic snapshot. Listings,
 ## Repository Structure
 
 ```text
-Fraudulent_property_listing_detection_tool/
+tool/
 ├── data/
 │   ├── bronze/
 │   │   ├── airbnb_raw.csv
@@ -56,7 +56,6 @@ Fraudulent_property_listing_detection_tool/
 ├── reports/
 │   ├── figures/
 │   └── tables/
-└── README.md
 ```
 ## How to Run the Project
 
